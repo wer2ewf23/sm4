@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+.header{
+
+}
+.header_container{
+margin: 0 auto;
+max-width: 1920px;
+height: 150px;
+background-color: rgb(0, 0, 0);
+}
+.header_content{
+display: flex;
+grid-gap: 50px;
+justify-content: space-around;
+align-items: center;
+padding-top: 30px;
+}
+.header_logo{
+font-size: 20px;
+color: #fff;
+}
+.header_nav{
+display: flex;
+justify-content: center;
+align-items: center;
+grid-gap: 25px;
+
+}
+.header_item{
+
+}
+.header_link{
+font-size: 18px;
+color: #fff;
+}
